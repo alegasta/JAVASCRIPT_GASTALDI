@@ -5,14 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Hoja de Estilos CSS-->
-    <link rel="stylesheet" href="css/estilos.css">
-    <title>Interactuar con HTML</title>
+    <link rel="stylesheet" href="css/style.css">
+    <title>ENTREGA PROYECTO JS CODER</title>
+    <script src="sweetalert2.all.min.js"></script>
+    
 </head>
 
 
 <body id="principal">
-    <H1>Interactuar con HTML</H1>
+    
+    <H1>TABLERO DE PREGUNTAS</H1>
+    <h2 id="saludo"></h2>
+    <div id="contFormulario">
+        <p>Ingresa tus datos para comenzar</p>
+        <form id="formulario" action="">
+            <input id="nombre" type="text" placeholder="nombre">
+            <input id="apellido" type="text" placeholder="apellido">
+            <input id="edad" type="number" placeholder="edad">
+            <input value="enviar" type="submit">
+        </form>
+    </div>
+    <div id="saludoUsuario"></div>
 
+    <div id="contenido"></div>
+    <button id="logout">Log out</button>
     <div id="tablero"></div>
 
     <div class="contenedor">
