@@ -245,4 +245,4 @@ function readText(ruta_local) {
 }
     return texto;
 }
-
+//fetch
