@@ -82,7 +82,7 @@ let mostrar_pantalla_juego_términado = true;
 let reiniciar_puntos_al_reiniciar_el_juego = true;
 
 window.onload = function () {
-    preguntas = readText("preguntas.json");
+    preguntas = leerTexto("preguntas.json");
     interprete_bp = JSON.parse(preguntas);
     eligePreguntaAleatoria();
 };
@@ -118,7 +118,7 @@ function eligePreguntaAleatoria() {
     if (mostrar_pantalla_juego_términado) {
         swal.fire({
             title: "Juego finalizado",
-            text: "Puntuación: " + preguntas_correctas + "/" + (preguntas_hechas - 1),
+            text: "Puntuación: " + preguntas_correctas + "/" + (preguntas_hechas),
             icon: "success"
         });
     }
@@ -151,7 +151,7 @@ function elegirPregunta(n) {
     desordenarRespuestas(pregunta);
     if (pregunta.imagen) {
         select_id("imagen").setAttribute("src", pregunta.imagen);
-        style("imagen").height = "200px";
+        style("imagen").height = "250px";
         style("imagen").width = "100%";
         } else {
             style("imagen").height = "0px";
@@ -204,22 +204,6 @@ function apretar_btn(i) {
     }, 3000);
 }
 
-// let p = prompt("numero")
-/*
-//Declaracion de eventos para los botones de respuesta
-let boton1 = document.getElementById ( "btn1");
-boton1.onclick = () =>{console.log ( "Respuesta 1 ")};
-
-let boton2 = document.getElementById ( "btn2");
-boton2.onclick = () =>{console.log ( "Respuesta 2 ")};
-
-let boton3 = document.getElementById ( "btn3");
-boton3.onclick = () =>{console.log ( "Respuesta 3 ")};
-
-let boton4 = document.getElementById ( "btn4");
-boton4.onclick = () =>{console.log ( "Respuesta 4 ")};
-*/
-
 function reiniciar() {
     for (const btn of btn_correspondiente) {
     btn.style.background = "white";
@@ -235,11 +219,11 @@ function style(id) {
     return select_id(id).style;
 }
 
-function readText(ruta_local) {
+function leerTexto(ruta_local) {
     var texto = null;
     var xmlhttp = new XMLHttpRequest();
-    xmlhttp.open("GET", ruta_local, false);
-    xmlhttp.send();
+        xmlhttp.open("GET", ruta_local, false);
+        xmlhttp.send();
     if (xmlhttp.status == 200) {
         texto = xmlhttp.responseText;
 }

@@ -1,21 +1,88 @@
 [
     {
         "categoria": "General",
-        "pregunta": "Vehículo de transporte aéreo provisto de alas. Escriba el numero de la opcion correcta:",
-        "respuesta": "AVION",
-        "incorrecta1": "TRACTOR",
-        "incorrecta2": "DRONE",
-        "incorrecta3": "HELICOPTERO"
+        "pregunta": "Vehículo de transporte aéreo provisto de alas:",
+        "respuesta": "Avión",
+        "incorrecta1": "Tractor",
+        "incorrecta2": "Drone",
+        "incorrecta3": "Helicoptero"
         
         
     },
     {
         "categoria": "General",
         "pregunta": "Local donde los hombres se cortaban y arreglaban el pelo, la barba y el bigote:\"",
-        "respuesta": "BARBERIA",
-        "incorrecta1": "CERVECERIA",
-        "incorrecta2": "FERRETERIA",
-        "incorrecta3": "RELOJERIA"
+        "respuesta": "Barberia",
+        "incorrecta1": "Cerveceria",
+        "incorrecta2": "Ferreteria",
+        "incorrecta3": "Relojeria"
         
+    },
+    {
+        "categoria": "Arte y literatura",
+        "pregunta": "¿Quién pinto 'La Gioconda'?",
+        "respuesta": "Leonardo Da Vinci",
+        "incorrecta1": "Miguel Ángel",
+        "incorrecta2": "Rafael",
+        "incorrecta3": "Tiziano\r",
+        "imagen": "http://c.files.bbci.co.uk/115BE/production/_121520117_34741f32-c626-4364-b0dc-6e64ff0ecea3.jpg"
+    },
+    {
+        "categoria": "Ciencia y técnologia",
+        "pregunta": "¿Cómo se llama a los electrones que se encuentran en la última capa del átomo?",
+        "respuesta": "Electrones De Valencia",
+        "incorrecta1": "Electrones",
+        "incorrecta2": "Iones",
+        "incorrecta3": "Isotopos\r",
+        "imagen": "https://i.ibb.co/6v4nGBq/Materia.jpg"
+    },
+    {
+        "categoria": "Ciencia y técnologia",
+        "pregunta": "¿Cuál es el hueso más pequeño del cuerpo?",
+        "respuesta": "El Estribo",
+        "incorrecta1": "El Yunque",
+        "incorrecta2": "La Falange",
+        "incorrecta3": "Ninguna Es Correcta\r",
+        "imagen": "https://i.ibb.co/31Fhj8j/000.jpg"
+    },
+    {
+        "categoria": "Ciencia y técnologia",
+        "pregunta": "¿Cuál es el mamífero más grande conocido hasta la actualidad?",
+        "respuesta": "Ballena Azul",
+        "incorrecta1": "Cachalote",
+        "incorrecta2": "Elefante",
+        "incorrecta3": "Rinoceronte\r"
+    },
+    {
+        "categoria": "Ciencia y técnologia",
+        "pregunta": "¿Dónde están los meniscos?",
+        "respuesta": "En Las Rodillas",
+        "incorrecta1": "En Los Codos",
+        "incorrecta2": "En La Punta Del Pie",
+        "incorrecta3": "En El Peroné\r"
+    },
+    {
+        "categoria": "Internet",
+        "pregunta": "¿Cuál de estas redes sociales es de ámbito laboral?",
+        "respuesta": "Linkedin",
+        "incorrecta1": "Facebook",
+        "incorrecta2": "Tuenti",
+        "incorrecta3": "Jobfire\r"
+    },
+    {
+        "categoria": "Química",
+        "pregunta": "¿Cuál es el símbolo de Bromo?",
+        "respuesta": "Br",
+        "incorrecta1": "No Es Un Elemento, Es Un Compuesto",
+        "incorrecta2": "B",
+        "incorrecta3": "BH\r"
+    },
+    {
+        "categoria": "Geografía",
+        "pregunta": "¿Cuál es el océano más profundo ?",
+        "respuesta": "Pacífico",
+        "incorrecta1": "Atlántico ",
+        "incorrecta2": "Índico ",
+        "incorrecta3": "Ártico \r"
     }
 ]
